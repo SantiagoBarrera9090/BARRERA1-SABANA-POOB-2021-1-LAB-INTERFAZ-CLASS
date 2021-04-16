@@ -1,0 +1,32 @@
+{
+  "name": "LAB-ABSTRACT-CLASS",
+  "version": "1.0.0",
+  "description": "## Parte I - Entendiendo herencia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SABANA-POOB/LAB-INTERFACES.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SABANA-POOB/LAB-INTERFACES/issues"
+  },
+  "homepage": "https://github.com/SABANA-POOB/LAB-INTERFACES#readme",
+  "devDependencies": {
+    "semantic-release": "17.3.9"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
+  }
+}
